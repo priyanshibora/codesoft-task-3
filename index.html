@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <!-- the meta tag provides how web page should be displayed on the screen -->
+   
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Numeric Calculator</title>
+        <link href="style.css" rel="stylesheet"
+        type="text/css" />
+    </head>
+    <body>
+       <!---- <div class="nav" > 
+            <h1>Web Calculator</h1>
+        </div>
+        -->
+
+        <div class="container">
+            <input id="display" readonly>
+                <div class="btn"> 
+                <button onclick="Clearval()" class="orangebtn">C</button>
+                <button onclick="solve('sin')">sin</button>
+                <button onclick="solve('cos')">cos</button>
+                <button onclick="solve('log')">log</button>
+                <button onclick="solve('+')">+</button>
+                <button onclick="solve('7')">7</button>
+                <button onclick="solve('8')">8</button>
+                <button onclick="solve('9')">9</button>
+                <button onclick="solve('-')">-</button>
+                <button onclick="solve('4')">4</button>
+                <button onclick="solve('5')">5</button>
+                <button onclick="solve('6')">6</button>
+                <button onclick="solve('*')">*</button>
+                <button onclick="solve('1')">1</button>
+                <button onclick="solve('2')">2</button>
+                <button onclick="solve('3')">3</button>
+                <button onclick="solve('/')">/</button>
+                <button onclick="solve('.')">.</button>
+                <button onclick="solve('0')">0</button>
+                <button onclick="result()" class="orangebtn">=</button>
+            </div>
+        </div> 
+        <script src="script.js"></script>
+    </body>
+</html>
